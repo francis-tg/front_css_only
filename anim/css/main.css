@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3c3c3c;
+}
+
+.container{
+    margin: 50px 150px;
+}
+
+.question-box{
+    padding: 10px;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 20px;
+
+}
+
+.question{
+    text-align: center;
+}
+
+.response-box{
+    padding: 10px;
+    margin:10px;
+}
+
+.response{
+    background-color: #ff0555;
+    padding: 10px;
+    border-radius: 20px; 
+    
+}
