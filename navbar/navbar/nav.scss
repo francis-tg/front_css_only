@@ -17,9 +17,17 @@ nav{
         li{
             margin: 0 10px;
             list-style: none;
-            a:hover{
-                border-bottom: 2px solid #ff0085;
+            // a:hover{
+            //     border-bottom: 2px solid #ff0085;
+            // }
+            a{
+                &:active,
+                &:focus,
+                &:hover{
+                    border-bottom: 2px solid #ff0085;
+                }
             }
+
         }
     }
     a{
